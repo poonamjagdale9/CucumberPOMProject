@@ -18,11 +18,11 @@ Feature: Login Functionality for OpenCart E-commerce website
 
         Examples:
           | username          | password        | error_message       |
-          | invalid@gmail.com | invalidpassword | Invalid credentials
-          | abccc             | Valid password  | Invalid credentials
+          | invalid@gmail.com | invalidpassword | Invalid credentials |
+          | abccc             | Valid password  | Invalid credentials |
 
         Scenario: Navigating to the forgotten password page
           Given I was on the login page
           When I click on the "Forgot password" button
           Then I was redirected to the reset password page
-          
+
