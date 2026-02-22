@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b4caad4-ca65-43e6-ac4c-2928c7c6e500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/MyLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/MyLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/ElementsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/ElementsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/LoginPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/loginpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/loginpage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
