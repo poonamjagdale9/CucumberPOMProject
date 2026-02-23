@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b4caad4-ca65-43e6-ac4c-2928c7c6e500" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/ebayloginpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/ebayloginpage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/ebayloginpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/opencartLoginPage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="C:\Users\jagda\IdeaProjects\CucumberPOMProject\src\test\java\com\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: loginpage">
+  <component name="RunManager" selected="Cucumber Java.Feature: opencartLoginPage">
     <configuration name="MyLoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pages.MyLoginPage" />
       <module name="CucumberPOMProject" />
@@ -77,8 +77,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: opencartLoginPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/opencartLoginPage.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberPOMProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: opencartLoginPage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: opencartLoginPage" />
         <item itemvalue="Cucumber Java.Feature: loginpage" />
         <item itemvalue="Application.MyLoginPage" />
       </list>

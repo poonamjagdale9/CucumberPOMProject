@@ -1,4 +1,4 @@
-Feature Login page feature
+Feature: Login page feature
 
   Scenario: Login page title
     Given User is on login page
@@ -14,7 +14,7 @@ Feature Login page feature
         When User enters the user name "Radha@gmail.com"
         And user enters the correct password"@Selenium123"
         And user clicks on login button
-        Then user gets the title of the page
+        Then user gets the title of the home page
         And Page title should be "My Account"
 
 
