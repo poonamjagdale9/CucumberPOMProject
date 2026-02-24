@@ -1,5 +1,6 @@
 package com.qa.factory;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,7 +12,10 @@ public class DriverFactory {
 
         System.out.println("browser value is: "+ browser);
 
-        if(browser.equals("Chrome"))
+        if(browser.equals("Chrome")){
+            WebDriverManager.chromedriver().setup();
+            tlDriver.set(new ChromeDriver());
+        }
        /* this.driver = driver;
         driver = new ChromeDriver();
         driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");*/
