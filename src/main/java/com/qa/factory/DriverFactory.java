@@ -9,7 +9,7 @@ public class DriverFactory {
    public WebDriver driver;
    public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
     /*This method is used to initialize the thradlocal driver on the basis of given browser*/
-    
+
     public WebDriver init_Driver(String browser) {
 
         System.out.println("browser value is: "+ browser);
